@@ -1,0 +1,10 @@
+/node_modules
+/vendor
+/public/screenshots
+/public/user_avatars
+/public/videos
+/public/specialisation_files
+/.idea
+/storage
+.env
+npm-debug.log

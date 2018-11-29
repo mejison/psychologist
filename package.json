@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack --watch --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.5.0",
+    "sweetalert2": "^6.11.5",
+    "vue": "^2.0.1",
+    "vue-datepicker": "*",
+    "vue-router": "^2.2.0",
+    "vue-slider-component": "*",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "croppie": "^2.4.0",
+    "modal-vue": "0.0.3",
+    "moment": "^2.17.1",
+    "nuxt-dropzone": "^0.2.6",
+    "vue-bulma-modal": "^1.0.1",
+    "vue-carousel-3d": "^0.1.8",
+    "vue-datatable": "^1.0.4",
+    "vue-easy-slider": "^3.1.0",
+    "vue-quill-editor": "^2.2.4",
+    "vue2-dropzone": "^2.3.5",
+    "vue2-editor": "^2.0.24",
+    "vuex": "^2.1.1"
+  }
+}
